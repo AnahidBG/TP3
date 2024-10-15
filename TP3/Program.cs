@@ -10,7 +10,7 @@ class Program
     {
         while (true)
         {
-            Console.WriteLine("\nMenú");
+            Console.WriteLine("\nMenu");
             Console.WriteLine("1. Crear vuelos");
             Console.WriteLine("2. Reservar asiento");
             Console.WriteLine("3. Cancelar reserva");
@@ -19,7 +19,7 @@ class Program
             Console.WriteLine("6. Buscar asiento");
             Console.WriteLine("7. Salir");
 
-            Console.Write("Ingrese una opción: \n");
+            Console.Write("Ingrese una opcion: \n");
             int opcion = int.Parse(Console.ReadLine());
 
             switch (opcion)
@@ -46,7 +46,7 @@ class Program
                     Environment.Exit(0);
                     break;
                 default:
-                    Console.WriteLine("Opción no valida");
+                    Console.WriteLine("Opcion no valida");
                     break;
             }
         }
@@ -77,19 +77,19 @@ class Program
     {
         if (creado)
         {
-            Console.Write("Ingrese número de vuelo: ");
+            Console.Write("Ingrese numero de vuelo: ");
             int numVuelo;
             while (!int.TryParse(Console.ReadLine(), out numVuelo) || numVuelo <= 0 || numVuelo > cantidadVuelos)
             {
-                Console.WriteLine("Número de vuelo invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de vuelo invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de vuelo: ");
             }
 
-            Console.Write("Ingrese número de asiento: ");
+            Console.Write("Ingrese numero de asiento: ");
             int numAsiento;
             while (!int.TryParse(Console.ReadLine(), out numAsiento) || numAsiento < 1 || numAsiento > 60)
             {
-                Console.WriteLine("Número de asiento invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de asiento invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de asiento: ");
             }
 
@@ -115,19 +115,19 @@ class Program
     {
         if (creado)
         {
-            Console.Write("Ingrese número de vuelo: ");
+            Console.Write("Ingrese numero de vuelo: ");
             int numVuelo;
             while (!int.TryParse(Console.ReadLine(), out numVuelo) || numVuelo <= 0 || numVuelo > cantidadVuelos)
             {
-                Console.WriteLine("Número de vuelo invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de vuelo invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de vuelo: ");
             }
 
-            Console.Write("Ingrese número de asiento: ");
+            Console.Write("Ingrese numero de asiento: ");
             int numAsiento;
             while (!int.TryParse(Console.ReadLine(), out numAsiento) || numAsiento < 1 || numAsiento > 60)
             {
-                Console.WriteLine("Número de asiento invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de asiento invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de asiento: ");
             }
 
@@ -153,11 +153,11 @@ class Program
     {
         if (creado)
         {
-            Console.Write("Ingrese número de vuelo: ");
+            Console.Write("Ingrese numero de vuelo: ");
             int numVuelo;
             while (!int.TryParse(Console.ReadLine(), out numVuelo) || numVuelo <= 0 || numVuelo > cantidadVuelos)
             {
-                Console.WriteLine("Número de vuelo invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de vuelo invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de vuelo: ");
             }
 
@@ -177,11 +177,11 @@ class Program
     {
         if (creado)
         {
-            Console.Write("Ingrese número de vuelo: ");
+            Console.Write("Ingrese numero de vuelo: ");
             int numVuelo;
             while (!int.TryParse(Console.ReadLine(), out numVuelo) || numVuelo <= 0 || numVuelo > cantidadVuelos)
             {
-                Console.WriteLine("Número de vuelo invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de vuelo invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de vuelo: ");
             }
 
@@ -213,19 +213,19 @@ class Program
     {
         if (creado)
         {
-            Console.Write("Ingrese número de vuelo: ");
+            Console.Write("Ingrese numero de vuelo: ");
             int numVuelo;
             while (!int.TryParse(Console.ReadLine(), out numVuelo) || numVuelo <= 0 || numVuelo > cantidadVuelos)
             {
-                Console.WriteLine("Número de vuelo invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de vuelo invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de vuelo: ");
             }
 
-            Console.Write("Ingrese número de asiento: ");
+            Console.Write("Ingrese numero de asiento: ");
             int numAsiento;
             while (!int.TryParse(Console.ReadLine(), out numAsiento) || numAsiento < 1 || numAsiento > 60)
             {
-                Console.WriteLine("Número de asiento invalido. Intente nuevamente.");
+                Console.WriteLine("Numero de asiento invalido. Intente nuevamente.");
                 Console.Write("Ingrese número de asiento: ");
             }
 
